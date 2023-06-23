@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   
+        
+        <div id="signup" class="page">
+            <h1>Sign Up</h1>
+            <form id="signupForm">
+                <input type="text" id="signupUsername" placeholder="Username">
+                <input type="password" id="signupPassword" placeholder="Password">
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+        </div>
+      </div>
+      <button onclick="logout()">Logout</button>
+      <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <h2 style="text-align:center">Login with Social Media or Manually</h2>
+              <div class="vl">
+                <span class="vl-innertext">or</span>
+              </div>
+              <p>Don't have an account? <a href="#" onclick="showSignup()">Sign up</a></p>
+            </div>
+            <div class="col">
+                <a href="#" class="fb btn">
+                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook <br>
+                </a>
+                <a href="#" class="twitter btn">
+                  <i class="fa fa-twitter fa-fw"></i> Login with Twitter <br>
+                </a>
+                <a href="#" class="google btn">
+                  <i class="fa fa-google fa-fw"></i> Login with Google+ <br>
+                </a>
+             </div>
+        
+        
+</body>
+</html>
